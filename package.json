@@ -1,0 +1,21 @@
+{
+  "name": "w1Tests",
+  "version": "1.0.0",
+  "description": "First week tests",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha tests.js -R list",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Marcus Hammarberg <marcusoftnet@gmail.com> (http://www.marcusoft.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
+}
